@@ -1,0 +1,9 @@
+.mountain-style table {
+    border: 1px solid #ccc;
+}
+.mountain-style th {
+    font-weight: bold;
+}
+.mountain-style td, .mountain-style th {
+    padding: 5px;
+}
