@@ -1,0 +1,5 @@
+.nav-tree li { list-style-type: none; }
+.nav-tree { margin: 0px; padding: 0px; }
+.nav-tree ul { margin: 0px; padding: 0px 0px 0px 20px; }
+.nav-tree .tree-item-folder { cursor:pointer; }
+.nav-tree .tree-item-type { display:inline-block; width: 10px; }
