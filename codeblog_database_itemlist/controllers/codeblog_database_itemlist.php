@@ -8,7 +8,7 @@ class CodeblogDatabaseItemlistController extends Controller {
         $ml = new MountainList();
         $ml->setItemsPerPage(5);
         $ml->sortByMountainName();
-        $ml->filterByHeight(4000, '>');
+        // $ml->filterByHeight(4000, '>');
         $html = Loader::helper('html');
         
         $this->addHeaderItem($html->css('mountain_style.css', 'codeblog_database_itemlist'));
