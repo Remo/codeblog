@@ -13,6 +13,8 @@ class CodeblogDatabaseItemlistController extends Controller {
         
         $this->addHeaderItem($html->css('mountain_style.css', 'codeblog_database_itemlist'));
 
+        $currentPage = Page::getCurrentPage();
+
         $this->set('mountains', $ml->getPage());
         $this->set('mountainsPagination', $ml->displayPaging(Loader::helper('navigation')->getLinkToCollection($currentPage), true));
     }
